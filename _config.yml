@@ -1,0 +1,54 @@
+# Site Al-Afna - Configuration GitHub Pages
+
+# Configuration de base
+title: Al-Afna - Solutions Numériques
+description: Transformez votre business avec les solutions numériques innovantes d'Al-Afna
+url: https://al-afna.site
+baseurl: ""
+
+# Auteur
+author:
+  name: Al-Afna
+  email: contactalafna@gmail.com
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Gems / Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gzip
+  - jekyll-sitemap
+
+# Compression
+compress_output: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclusions du build
+exclude:
+  - README.md
+  - node_modules
+  - .gitignore
+  - .env
+
+# Inclusions
+include:
+  - .htaccess
+
+# Permalink
+permalink: /:title/
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+# Timezone
+timezone: Africa/Niamey

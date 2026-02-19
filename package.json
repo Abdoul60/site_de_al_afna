@@ -1,0 +1,43 @@
+{
+  "name": "al-afna-website",
+  "version": "1.0.0",
+  "description": "Al-Afna - Solutions Numériques & Business Development",
+  "author": {
+    "name": "Al-Afna",
+    "email": "contactalafna@gmail.site",
+    "url": "https://al-afna.site"
+  },
+  "license": "MIT",
+  "homepage": "https://al-afna.site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/USERNAME/al-afna.git"
+  },
+  "scripts": {
+    "start": "http-server -p 8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "git push origin main",
+    "test": "echo 'No tests configured'",
+    "dev": "http-server -p 3000 --cors"
+  },
+  "keywords": [
+    "web development",
+    "mobile apps",
+    "data analytics",
+    "digital consulting",
+    "Niger",
+    "Niamey"
+  ],
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR"
+  ]
+}
